@@ -48,7 +48,7 @@ static SUPPORTED_GENES: Lazy<HashSet<&'static str>> = Lazy::new(|| {
     let mut set = HashSet::new();
     let supported_genes = [
         "CDC42EP5", "LILRA1", "LILRB1", "LILRB4", "LAIR1", "LENG8", "LILRA2", "LILRA5", "LILRB2",
-        "LILRB5", "LAIR2", "LENG9", "LILRA3", "LILRA6", "LILRB3", "TTYH1",
+        "LILRB5", "LAIR2", "LENG9", "LILRA3", "LILRA6", "LILRB3", "TTYH1", "HLA-A", "HLA-B", "HLA-C",
     ];
     supported_genes.into_iter().for_each(|k| {
         set.insert(k);
